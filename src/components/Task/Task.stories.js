@@ -1,6 +1,6 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import '../index.css';
+import '../../index.css';
 
 import Task from './Task';
 

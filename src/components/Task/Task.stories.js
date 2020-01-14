@@ -15,6 +15,11 @@ export default {
   excludeStories: /.*Data$/,
   parameters: {
     notes: 'Task Component',
+    assets: [
+      'path/to/your/asset.png',
+      'path/to/another/asset.png',
+      'path/to/yet/another/asset.png',
+    ],
   },
 };
 

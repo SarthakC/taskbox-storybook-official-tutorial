@@ -4,11 +4,12 @@ import { Provider } from 'react-redux';
 
 import { PureInboxScreen } from './InboxScreen';
 import { defaultTasksData } from '../TaskList/TaskList.stories';
+import { withA11y } from '@storybook/addon-a11y';
 
 export default {
   component: PureInboxScreen,
   title: 'InboxScreen',
-  decorators: [story => <Provider store={store}>{story()}</Provider>],
+  decorators: [story => <Provider store={store}>{story()}</Provider>, withA11y],
 };
 
 // A super-simple mock of a redux store
